@@ -36,9 +36,6 @@ public class H {
     }
 
     public void start() throws IOException {
-//        t = new StreamTokenizer( new BufferedReader( new FileReader("arrange.in.txt")));
-//        PrintWriter writer = new PrintWriter("arrange.out.txt");
-
         t = new StreamTokenizer( new BufferedReader( new FileReader("avia.in")));
         PrintWriter writer = new PrintWriter("avia.out");
 
