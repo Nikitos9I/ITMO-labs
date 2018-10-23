@@ -38,11 +38,7 @@ public class A {
     }
 
     public void start() throws IOException {
-//        t = new StreamTokenizer( new BufferedReader( new FileReader("arrange.in.txt")));
-//        PrintWriter writer = new PrintWriter("arrange.out.txt");
-
         t = new StreamTokenizer( new BufferedReader( new InputStreamReader(System.in)));
-//        PrintWriter writer = new PrintWriter("topsort.out");
 
         int n = nextInt();
         int m = nextInt();
