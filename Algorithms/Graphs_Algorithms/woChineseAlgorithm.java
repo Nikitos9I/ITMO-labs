@@ -56,8 +56,6 @@ public class K {
     }
 
     public void start() throws IOException {
-//        t = new StreamTokenizer( new BufferedReader( new FileReader("input.txt")));
-//        PrintWriter writer = new PrintWriter("arrange.out.txt");
         t = new StreamTokenizer( new BufferedReader(new InputStreamReader(System.in)));
 
         int n = nextInt();
@@ -111,16 +109,6 @@ public class K {
 
     private long doMST(List<Edge> edges, int n, int root) {
         boolean[] visited = new boolean[n];
-//        checkConnectedness(edges, root, visited);
-//
-//        for (int i = 0; i < n; i++) {
-//            if (!visited[i]) {
-//                System.out.println("NO");
-//                System.exit(0);
-//            }
-//        }
-
-        Arrays.fill(visited, false);
         boolean[] isCycleGroup = new boolean[n];
         int[] group = new int[n];
         int count = 0;
