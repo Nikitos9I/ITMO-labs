@@ -14,6 +14,8 @@ import java.util.Arrays;
  */
 
 public class I_prim {
+    
+    // SOLVE WITH PRIM ALGORITHM IMPLEMENTATION
 
     public StreamTokenizer t;
 
