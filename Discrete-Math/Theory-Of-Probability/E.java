@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  * @version 1.0.0
  */
 
-public class D {
+public class E {
 
     public StreamTokenizer t;
     double[][] matrix;
@@ -89,7 +89,7 @@ public class D {
     }
 
     public static void main(String[] args) throws IOException {
-        new D().start();
+        new E().start();
     }
 
 }
